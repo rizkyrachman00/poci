@@ -1,0 +1,118 @@
+body {
+    font-family: "poppins", sans-serif;
+}
+
+/* begin navbar */
+
+nav {
+    margin-top: 0px;
+}
+
+.container {
+    width: 100vw;
+    margin: 0 auto;
+}
+
+nav .container {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1a745;
+}
+
+nav .logo {
+    width: 20%;
+}
+nav .menu {
+    width: 55%;
+}
+nav .ctas {
+    width: 20%;
+}
+
+nav .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+nav .ctas {
+    text-align: right;
+}
+
+nav .ctas img {
+    text-align: right;
+    margin-left: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.logo-item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 10px;
+    width: 45%;
+}
+
+.logo-item .title-1 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.logo-item .title-2 {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: #000;
+}
+
+.ctas a img {
+    width: 35px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+/* end navbar */
+
+/* begin home  */
+
+.home {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    text-align: center;
+}
+
+.home .home-subheadline {
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 80px;
+    color: #faa432;
+}
+
+.home .home-headline {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.home .home-subheadline,
+.home .home-headline {
+    margin: 0;
+}
+/* end home */

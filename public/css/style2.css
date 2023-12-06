@@ -1,0 +1,51 @@
+body {
+    font-family: "poppins", sans-serif;
+    flex-direction: column;
+}
+
+.container2 {
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 0px;
+    display: flex;
+    background-image: url('/asset-img/bghijau1.png');
+    background-position: center;
+    background-size: 138vw;
+}
+.slide2 {
+    margin-right: 2px;
+    align-content: center;
+}
+.list p {
+    color: #ffffff;
+    margin-left: 13vw;    
+    font-weight: bold;
+    font-size: 25px;
+}
+.list li {
+    color: #ffffff;
+    margin-left: 13vw;
+    list-style-type: square;
+    margin-bottom: 10px;
+} 
+.image-with-text {
+    display: flex;
+    align-items: center;
+  }
+.image-with-text img {
+    max-width: 400px; /* Sesuaikan ukuran gambar yang diinginkan */
+    margin-left: 0px; /* Jarak antara gambar dan teks */
+    order: 2; /* Mengubah urutan elemen: gambar ke kanan */
+}
+.image-with-text li {
+    order: 1;
+}
+.image-with-text button {
+    background-color: #f1a745;
+    color: #ffffff;
+    margin-left: 15vw;
+    border: none;
+    border-radius: 35px;
+    width: 15vw;
+    padding: 10px;
+}

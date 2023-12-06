@@ -1,0 +1,63 @@
+body {
+    font-family: "poppins", sans-serif;
+}
+
+.container5 {
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 0px;
+    display: flex;
+    background-image: url('/asset-img/bgputih.png');
+    background-position: center;
+    background-size: 130vw;
+}
+
+.slide5 {
+    margin-right: 2px;
+    align-content: center;
+}
+
+.rating {
+    font-size: 24px;
+    /* Ukuran bintang */
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.star {
+    color: gold;
+    /* Warna bintang */
+}
+
+.comment {
+    font-size: 14px;    /* Ukuran teks ulasan */
+    font-style: italic;
+    color: #000000;   /* Warna teks ulasan */
+    text-align: center;
+    align-items: center;
+    margin-right: 15vw;
+    margin-left: 15vw;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.rating img {
+    width: 5px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 15px;
+
+}
+
+.image {
+    max-width: 15%; /* Maksimum lebar gambar */
+    height: auto;   /* Biarkan tinggi gambar menyesuaikan */
+    margin-top: 0px;  /* Jarak antara ulasan dan gambar */
+    align-items: center;
+    align-content: center;
+    margin-bottom: 0px;
+}

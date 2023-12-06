@@ -1,0 +1,43 @@
+body {
+    font-family: "poppins", sans-serif;
+}
+.container {
+    width: 100vw;
+    margin: 0 auto;
+    background-color: rgb(199, 199, 193);
+}
+.container1 {
+    width: 90vw;
+    margin: 0 auto;
+    background-image: url('/asset-img/bgputih.png');
+    background-position: center;
+    background-size: cover;
+}
+.text-with-lines {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.line {
+    border-top: 2px solid #faa432;
+    width:15vw;
+    margin: 0 auto; /* Jarak antara teks dan garis */
+    align-items: center;
+    justify-content: center;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.featured-image {
+    width: 100%;
+    max-width: 90px; /* Sesuaikan dengan ukuran yang diinginkan */
+    margin: 0 auto;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+  .featured-image img {
+    width: 90%;
+    height: auto;
+    display: flex;
+    margin-left: 10px;
+}

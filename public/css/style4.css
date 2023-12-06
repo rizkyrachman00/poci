@@ -1,0 +1,42 @@
+body {
+    font-family: "poppins", sans-serif;
+}
+.container4 {
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    background-image: url('/asset-img/bghijau1.png');
+    background-position: center;
+    background-size: 120vw;
+}
+.slide4 {
+    margin-right: 2px;
+    align-content: center;
+}
+.headline p {
+    color: #ffffff;
+    margin-left: 13vw;
+    list-style-type: square;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.image-with-text {
+    display: flex;
+    align-items: center;
+  }
+.image-with-text img {
+    max-width: 400px; /* Sesuaikan ukuran gambar yang diinginkan */
+    margin-left: 0px; /* Jarak antara gambar dan teks */
+    order: 1; /* Mengubah urutan elemen: gambar ke kiri */
+}
+.image-with-text .content {
+    order: 2;
+}
+.content p {    
+    color: #ffffff;
+    margin-right: 15vw;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
